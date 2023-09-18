@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hudson Faria E. Santo">
+    <link rel="icon" type="image/svg" sizes="32x32" href="./img/Icons/code-icon.svg">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/style-desktop.css">
+    <link rel="stylesheet" href="./Css/animation.css">
+    <link rel="stylesheet" href="./Css/theme-change.css">
+    <title>Portifólio Hudson Faria E. Santo</title>
+</head>
+
+<body>
+    <div class="container ">
+        <header class="header">
+            <nav class="menu">
+                <ul>
+                    <li><button onclick="scrollToSection1('main')">Home <img src="./img/Icons/home-icon.svg"
+                                alt="home-icon"></button></li>
+                    <li><button onclick="scrollToSection2('projects')">Projetos<img src="./img/Icons/project-icon.svg"
+                                alt="home-icon"></button></li>
+                    <li><button onclick="scrollToSection3('social')">Contatos<img src="./img/Icons/contact-icon.svg"
+                                alt="home-icon"></button></li>
+                </ul>
+            </nav>
+        </header>
+        <button class="btn-theme"><img src="./img/ChangeTheme/sun-icon.svg" alt="sun icon" class="image-mode"></button>
+        <main class="main" id="main">
+            <div class="first">
+                <section class="inicial">
+                    <img src="./img/Images/first-image.jpg" alt="foto inicial Hudson" width="300px">
+                    <h1 class="typing-animation">Hudson Faria E. Santo</h1>
+                    <p>Desenvolvedor Front-end</p>
+                </section>
+                <section class="intro">
+                    <div class="image">
+
+                        <img src="./img/Images/second-image.jpg" alt="foto do Hudson">
+                    </div>
+                    <div class="description">
+                        <div class="destaque">
+                            <p>Olá!</p>
+                            <p>Eu sou</p>
+                            <p>Hudson Faria E. Santo</p>
+                        </div>
+                        <div class="text">
+                            <p>Sou desenvolvedor Web Front-end, estudante de Análise e Desenvolviemnto de Sistemas e
+                                procuro
+                                oportunidade de <span>estágio ou desenvolvedor Frontend Jr</span>. Possuo habilidades
+                                com
+                                <span>HTML, CSS e Javascript</span> e estou em constante aprimoramento, sempre estudando
+                                novas tecnologias! Tenho disponibilidade e aptidão para aprender coisas novas sempre que
+                                necessário, além de alta capacidade de adaptação.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="second">
+                <section class="projects">
+                    <h1 id="projects">Projetos</h1>
+                    <div class="cards-projects">
+                        <div class="wonders">
+                            <img src="./img/7wonders/wonders.png" alt="page of 7wonders">
+                            <div class="btn-wonder">
+                                <button><a href="https://hudsnf.github.io/Seven-Wonders-of-the-World/"
+                                        target="_blank"><img src="./img/Icons/link-icon.svg" alt="link icon">Site</a>
+                                </button>
+                                <button><a href="https://github.com/HudsnF/Seven-Wonders-of-the-World"
+                                        target="_blank"><img src="./img/Icons/code-icon.svg"
+                                            alt="code icon">Código</a></button>
+                            </div>
+                            <p>Um dos projetos mais recentes, que demonstra um site informativo sobre os grandes pontos
+                                turísticos como "As sete maravilhas do mundo moderno". Feito com Html, Css e Javascript.
+                            </p>
+                        </div>
+                        <div class="coffeeshop">
+                            <img src="./img/CoffeeShop/coffeeshop-1.png" alt="landpage de coffeeshop">
+                            <div class="btn-coffee">
+                                <button><a href="https://hudsnf.github.io/PersonalProject-CoffeShop/"
+                                        target="_blank"><img src="./img/Icons/link-icon.svg" alt="link icon">Site</a>
+                                </button>
+                                <button><a href="https://github.com/HudsnF/PersonalProject-CoffeShop/tree/main"
+                                        target="_blank"><img src="./img/Icons/code-icon.svg"
+                                            alt="code icon">Código</a></button>
+                            </div>
+                            <p>Esse foi o primeiro projeto usando <span>Javascript</span>. Uma pagina com
+                                foco mobile de uma loja de café, no qual, você escolhe o sabor, faz o pedido e escolhe
+                                entre reaver o pedido ou confirmar o mesmo.</p>
+                        </div>
+                        <div class="clockshop">
+                            <img src="./img/ClockShop/ClockShop.png" alt="landpage de clockshop">
+                            <div class="btn-coffee">
+                                <button><a href="https://hudsnf.github.io/clockShop_personalProject/"
+                                        target="_blank"><img src="./img/Icons/link-icon.svg" alt="link icon">Site</a>
+                                </button>
+                                <button><a href="https://github.com/HudsnF/clockShop_personalProject"
+                                        target="_blank"><img src="./img/Icons/code-icon.svg"
+                                            alt="code icon">Código</a></button>
+                            </div>
+                            <p>Uma landpage feita com <span>HTML</span> e <span>CSS</span> de uma loja de relógios.
+                                Feita com um design simples, como uma primeira página ao entrar no site específico. <br>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="tecno">
+                    <img src="./img/Icons/html-icon.svg" alt="icon html" width="30px">
+                    <img src="./img/Icons/css-icon.svg" alt="icon css" width="30px">
+                    <img src="./img/Icons/javascript_icon.svg" alt="icon javascript" width="30px">
+                </section>
+                <section class="social" id="social">
+                    <h1>Contatos</h1>
+                    <ul>
+                        <li><a href="https://github.com/HudsnF" target="_blank"><img src="./img/Icons/github-icon.svg"
+                                    alt="link do github" width="25px"></a></li>
+                        <li><a href="https://www.linkedin.com/in/hudsonsanto" target="_blank"><img
+                                    src="./img/Icons/linkedin-icon.svg" alt="link do linkedin" width="25px"></a></li>
+                        <li><a href="https://www.instagram.com/hudsnf/" target="_blank"><img
+                                    src="./img/Icons/instagram-icon.svg" alt="link do instagram" width="25px"></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=5561996753256" target="_blank"><img
+                                    src="./img/Icons/whatsapp-icon.svg" alt="link do whatsapp" width="28px"></a></li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </div>
+
+
+    <script src="./Js/script.js"></script>
+</body>
+
+</html>

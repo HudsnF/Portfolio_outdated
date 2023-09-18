@@ -1,0 +1,232 @@
+@media screen and (min-width:760px) and (min-height:600px) {
+
+    .header .menu ul {
+        gap: 4em;
+    }
+
+    .header .menu ul li button {
+        font-size: 1.5em;
+        padding: .5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .4em;
+    }
+
+    .header .menu ul li button:hover {
+        font-size: 1.5em;
+        padding: .6em;
+    }
+
+    .header .menu ul li button img {
+        display: block;
+        width: 1em;
+    }
+
+    .main .first .inicial img {
+        width: 10em;
+        animation: images-animation-desktop 1.5s ease-in;
+    }
+
+    .main .first .inicial .typing-animation {
+        animation:
+            typing-desktop 1.5s steps(30),
+            blink-caret .75s step-end infinite;
+        width: 305px;
+    }
+
+    .main .first .intro .description .destaque {
+        font-size: 2em;
+        border-right: 5px solid orange;
+    }
+
+    .main .first .intro .description .text {
+        padding-bottom:2em ;
+    }
+
+    .main .first .intro .image img {
+        height: 100%;
+    }
+
+    .main .second .projects h1 {
+        font-size: 2.5em;
+        width: 100%;
+    }
+
+    .main .second .projects {
+        width: 100%;
+    }
+
+    .main .second .projects .cards-projects {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 1em;
+    }
+
+
+    .main .second .projects .cards-projects button {
+        width: 10em;
+        padding: 0;
+    }
+
+    .main .second .projects .cards-projects button a {
+        width: 80%;
+        font-size: 1.5em;
+    }
+    .main .second .projects .cards-projects p{
+        font-size: 2em;
+    }
+
+    .main .second .tecno {
+        width: 100%;
+        height: 8em;
+    }
+
+    .main .second .tecno img {
+        width: 4em;
+        border-left: 3px solid orange;
+        transition: .6s;
+    }
+
+    .main .second .tecno img:hover {
+        width: 4.5em;
+        border: 3px solid white;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .main .second .social h1 {
+        font-size: 2.5em;
+    }
+
+    .main .second .social ul {
+        padding: 2em;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+}
+
+@media screen and (min-width:1000px) and (min-height:600px) {
+    .container {
+        width: 80%;
+    }
+
+    .header {
+        width: 80%;
+    }
+
+    .header .menu ul li button {
+        font-size: 2em;
+        padding: .6em 1.5em;
+    }
+
+    .header .menu ul li button:hover {
+        font-size: 2.1em;
+        padding: .65em 1.6em;
+    }
+
+    .main .first .inicial img {
+        width: 15em;
+        animation: images-animation-desktop2 1.5s ease-in;
+    }
+
+    .main .first .inicial .typing-animation {
+        animation:
+            typing-desktop2 1.5s steps(30),
+            blink-caret .75s step-end infinite;
+        width: 500px;
+    }
+
+    .main .first .inicial h1 {
+        font-size: 3em;
+        width: 500px;
+    }
+
+    .main .first .inicial p {
+        font-size: 1.8em;
+    }
+
+    .main .first .intro {
+        border-bottom: 3px solid black;
+    }
+
+    .main .first .intro .image {
+        width: 55%;
+        border-right: 5px solid orange;
+    }
+
+    .main .first .intro .image img {
+        width: 80%;
+        box-shadow: 3px 3px 5px black;
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+    }
+
+    .main .first .intro .description {
+        width: 45%;
+    }
+
+    .main .first .intro .description .destaque {
+        margin-bottom: 1em;
+        font-size: 300%;
+    }
+
+    .main .first .intro .description .text {
+        border-bottom: 5px solid orange;
+        font-size: 250%;
+    }
+
+    .main .second .projects h1 {
+        font-size: 3em;
+    }
+
+    .main .second .projects .cards-projects .coffeeshop,
+    .main .second .projects .cards-projects .clockshop,
+    .main .second .projects .cards-projects .wonders,
+    .main .second .projects .cards-projects .next-project2 {
+        width: 40%;
+        height: 45em;
+        font-size: 1.1em;
+    }
+
+    .main .second .projects .cards-projects button {
+        width: 10em;
+        font-size: 1em;
+
+    }
+
+    .main .second .projects .cards-projects button img {
+        width: 25px;
+    }
+
+    .main .second .tecno {
+        height: 10em;
+    }
+
+    .main .second .social {
+        background-size: cover;
+    }
+
+    .main .second .social h1 {
+        font-size: 3.5em;
+        margin-bottom: .5em;
+    }
+
+    .main .second .social ul {
+        width: 50%;
+        transition: 1s;
+        margin-bottom: 8em;
+    }
+
+    .main .second .social ul li a {
+        padding: 1em;
+    }
+
+    .main .second .social ul li img {
+        width: 50px;
+        padding: .1em;
+    }
+
+}

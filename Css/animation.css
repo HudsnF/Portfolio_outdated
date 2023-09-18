@@ -1,0 +1,68 @@
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 95%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: black;
+    }
+}
+
+@keyframes images-animation {
+    to {
+        width: 8em;
+    }
+
+    from {
+        width: 0
+    }
+}
+
+@keyframes images-animation-desktop{
+    to{
+        width: 10em;
+    }
+    from{
+        width: 0;
+    }
+}
+@keyframes images-animation-desktop2{
+    to{
+        width: 15em;
+    }
+    from{
+        width: 0;
+    }
+}
+@keyframes typing-desktop {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 305px;
+    }
+}
+@keyframes typing-desktop2 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 550px;
+    }
+}

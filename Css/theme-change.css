@@ -1,0 +1,122 @@
+.sun-mode {
+    background-color: rgb(255, 255, 244);
+    transition: .6s;
+}
+
+.sun-mode body {
+    background-color: rgb(255, 255, 244);
+}
+
+.sun-mode p,
+h1 {
+    color: black;
+
+}
+
+.sun-mode .header .menu ul li button {
+    box-shadow: 2px 2px 5px white;
+}
+
+.sun-mode .header .menu ul li button:hover {
+    box-shadow: 2px 2px 5px orange;
+}
+
+.sun-mode .main .first .inicial img {
+    box-shadow: 1px 2px 3px white;
+}
+
+.sun-mode .main .first .inicial h1 {
+    text-shadow: 1px 1px 1px white;
+    transition: .6s;
+}
+
+.sun-mode .main .first .intro .image img {
+    box-shadow: 1px 1px 5px orange;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    transition: .6s;
+}
+
+.sun-mode .main .first .intro .description .text span {
+    text-shadow: 1px 1px white;
+}
+
+.sun-mode .btn-theme {
+    border: 2px solid blueviolet;
+    background-color: black;
+    border-radius: 0;
+    border-top-right-radius: 3.5em;
+    border-bottom-left-radius: 3.5em;
+    transform: rotate(-45deg);
+    left: 1em;
+}
+
+.sun-mode .main .second .tecno img {
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.sun-mode .main .second .social ul {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.sun-mode .main .second .social ul li {
+    box-shadow: 1px 1px 3px white;
+}
+
+.btn-theme {
+    position: fixed;
+    z-index: 4;
+    top: 8em;
+    left: .5em;
+    padding: .5em;
+    border-radius: 50%;
+    transition: .6s;
+    border: 2px solid orange;
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+.btn-theme img {
+    width: 35px;
+    transform: rotate(50deg);
+}
+
+@media screen and (min-width:1000px) and (min-height:768px) {
+    .sun-mode .main .second .tecno img {
+        border: 3px solid black;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .sun-mode .main .second .tecno img:hover {
+        width: 4.5em;
+        border: 3px solid orange;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .sun-mode .main .second .social ul {
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+    }
+
+    .sun-mode .btn-theme {
+        top: 12em;
+        left: 12em;
+    }
+
+    .btn-theme {
+        top: 12em;
+        left: 12em;
+    }
+
+    .btn-theme img {
+        width: 45px;
+    }
+}
